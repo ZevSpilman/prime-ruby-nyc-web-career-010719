@@ -6,3 +6,9 @@ def prime?(int)
   end
 end
   
+  def prime?(int)
+   when my_number * my_number == int
+    my_number = rand(1..100)
+    
+  end
+    
