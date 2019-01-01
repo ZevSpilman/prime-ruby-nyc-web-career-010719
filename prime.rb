@@ -8,7 +8,8 @@ end
   
   def prime?(int)
    when my_number * my_number == int
-    my_number = rand(1..100)
+    return 
+    
     
   end
     
