@@ -6,4 +6,3 @@ ef prime?(n)
     else
       true
     end
-end
