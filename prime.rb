@@ -7,9 +7,10 @@ def prime?(int)
 end
   
   def prime?(int)
-   when my_number * my_number == int
-    return 
-    
-    
+   if  my_number * my_number == int
+    return false
+  else my_number = rand(1..100)
   end
+  return true
+end
     
